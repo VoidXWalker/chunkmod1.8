@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "chunkmod",
+  "version": "${version}",
+
+  "name": "Chunkmod",
+  "description": "Resets fast",
+  "authors": [
+    "Void_X_Walker"
+  ],
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.voidxwalker.chunkmod.Main"
+    ]
+  },
+  "mixins": [
+    "chunkmod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.1"
+  }
+}
